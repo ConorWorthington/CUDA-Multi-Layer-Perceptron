@@ -1,0 +1,14 @@
+﻿  
+  C:\Users\Conor\source\repos\CUDA - Multi Layer Perceptron\CUDA - Multi Layer Perceptron>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\main.cu.obj "C:\Users\Conor\source\repos\CUDA - Multi Layer Perceptron\CUDA - Multi Layer Perceptron\main.cu" -clean 
+  main.cu
+  Compiling CUDA source file main.cu...
+  
+  C:\Users\Conor\source\repos\CUDA - Multi Layer Perceptron\CUDA - Multi Layer Perceptron>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\main.cu.obj "C:\Users\Conor\source\repos\CUDA - Multi Layer Perceptron\CUDA - Multi Layer Perceptron\main.cu" 
+  main.cu
+C:/Users/Conor/source/repos/CUDA - Multi Layer Perceptron/CUDA - Multi Layer Perceptron/main.cu(184): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  CUDA - Multi Layer Perceptron.vcxproj -> C:\Users\Conor\source\repos\CUDA - Multi Layer Perceptron\x64\Debug\CUDA - Multi Layer Perceptron.exe
+  CUDA - Multi Layer Perceptron.vcxproj -> C:\Users\Conor\source\repos\CUDA - Multi Layer Perceptron\x64\Debug\CUDA - Multi Layer Perceptron.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "C:\Users\Conor\source\repos\CUDA - Multi Layer Perceptron\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 file(s) copied.
